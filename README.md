@@ -1,1 +1,1 @@
-# CMPE_258_Action_Recognition
+# Title: Real Time Action Recognition
