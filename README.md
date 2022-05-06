@@ -2,7 +2,7 @@
 
 ## Contents
 
- * [Objective](#Real Time Action Recognition)
+ * [Objective]
  * [Quick start](#quick-start)
  * [Folder Structure](#folder-structure)
  * [Installation](#installation)
