@@ -62,6 +62,7 @@ Customer_Churn_Analysis/
 ## Dataset
 
 https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
+</br>
  Dataset consists of images of 5 yoga poses. Which are as follows:
  1. Tree Pose
  2. No Pose
