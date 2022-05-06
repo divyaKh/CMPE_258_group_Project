@@ -61,6 +61,15 @@ Customer_Churn_Analysis/
 
 ## Dataset
 
+https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
+ Dataset consists of images of 5 yoga poses. Which are as follows:
+ 1. Tree Pose
+ 2. No Pose
+ 3. Downward Dog Pose 
+ 4. Goddess Pose
+ 5. Plank Pose
+ 6. Warrior Pose
+
 ### Contributors
 
 * [Aishwarya Paruchuri](https://github.com/aishwarya95698)
