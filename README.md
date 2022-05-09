@@ -1,4 +1,4 @@
-# Title: Real Time Action Recognition
+# Title: Fitness Tracker - Real Time Action Recognition and Arm Curler Reps Counter 
 
 ## Contents
 
