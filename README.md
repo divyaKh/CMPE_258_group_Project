@@ -18,7 +18,6 @@
 
 ## Objective
 
-![](/images/customer_churn.jpeg)
 
 
 
@@ -28,37 +27,38 @@
 ### Folder Structure
 
 ```shell
-Customer_Churn_Analysis/
-├── Model
-│   ├── images   
-│   ├── Model_building_with_clean_data.ipynb
+CMPE_258_group_Project/
+├── 1_Image_Annotation
+│   ├── Convert_to_YOLO_format.py
 │   └── README.md      
-├── data
-│   ├── Customer_churn_raw.csv
-│   ├── Customer_churn_raw.csv
-│   └── churn_final.csv
+├── 2_Training
+│   ├── Download_and_Convert_YOLO_weights.py
+│   ├── src
+│   ├── Train_YOLO.py
+│   └── README.md 
 ├── data_preprocessing
 │   ├── CustomerChurnPrediction.ipynb
 │   └── README.md
-└── data_visualization   
-│   ├── images
-│   ├── Data visualization after cleaning.ipynb
-│   ├── DataVisualization_BeforeDataCleaning.ipynb
-│   ├── High_Level_Overview_of_dataset.ipynb
-│   ├── sweet_report.html
+└── I3_Inference   
+│   ├── Detector.py
+│   ├── images 
+│   ├── settings.py 
 │   └── README.md
-└── images
-│   ├── ...
-│   └── customer_churn.jpeg
-└── report
-    ├── Images
-    ├── Customer_Churn_Analysis.pdf
-    ├── ieeeconf.cls
-    └── main.tex    
+└── Data
+│   ├── Model_Weights
+│   └── Source_Images
+└── Utils
+│   ├── 
+│   └── 
+└── Venv
+│   ├── 
+│   └── 
+└──  README.md 
 ```
 
 ### Steps to run the project
-
+1. Clone the project at the location https://github.com/MANJUSHREEBR/CMPE_258_group_Project.git
+2. 
 ## Dataset
 
 https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
