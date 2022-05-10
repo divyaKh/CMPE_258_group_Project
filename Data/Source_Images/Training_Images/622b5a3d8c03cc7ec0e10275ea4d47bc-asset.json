@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "622b5a3d8c03cc7ec0e10275ea4d47bc",
+        "name": "13.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/13.jpg",
+        "size": {
+            "width": 650,
+            "height": 433
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "G90NMvAxH",
+            "type": "RECTANGLE",
+            "tags": [
+                "NO POSE"
+            ],
+            "boundingBox": {
+                "height": 252.59509197732675,
+                "width": 102.70612162928427,
+                "left": 340.2757542107695,
+                "top": 111.25551268773049
+            },
+            "points": [
+                {
+                    "x": 340.2757542107695,
+                    "y": 111.25551268773049
+                },
+                {
+                    "x": 442.98187584005376,
+                    "y": 111.25551268773049
+                },
+                {
+                    "x": 442.98187584005376,
+                    "y": 363.85060466505723
+                },
+                {
+                    "x": 340.2757542107695,
+                    "y": 363.85060466505723
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

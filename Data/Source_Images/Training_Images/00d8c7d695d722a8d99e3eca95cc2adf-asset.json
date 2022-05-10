@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "00d8c7d695d722a8d99e3eca95cc2adf",
+        "name": "13_flipped.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/13_flipped.jpg",
+        "size": {
+            "width": 650,
+            "height": 433
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "LAR0CsInC",
+            "type": "RECTANGLE",
+            "tags": [
+                "NO POSE"
+            ],
+            "boundingBox": {
+                "height": 248.1536568019701,
+                "width": 91.03281985047042,
+                "left": 218.40318249117942,
+                "top": 113.61479787885771
+            },
+            "points": [
+                {
+                    "x": 218.40318249117942,
+                    "y": 113.61479787885771
+                },
+                {
+                    "x": 309.43600234164984,
+                    "y": 113.61479787885771
+                },
+                {
+                    "x": 309.43600234164984,
+                    "y": 361.7684546808278
+                },
+                {
+                    "x": 218.40318249117942,
+                    "y": 361.7684546808278
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "1b1da882dfd4dfe0ef7c1e388fa44b25",
+        "name": "00000254.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000254.jpg",
+        "size": {
+            "width": 728,
+            "height": 546
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "EXfceHDhz",
+            "type": "RECTANGLE",
+            "tags": [
+                "PLANK"
+            ],
+            "boundingBox": {
+                "height": 253.73090169076144,
+                "width": 704.2496663046525,
+                "left": 3.4607194156390135,
+                "top": 182.2841544265382
+            },
+            "points": [
+                {
+                    "x": 3.4607194156390135,
+                    "y": 182.2841544265382
+                },
+                {
+                    "x": 707.7103857202915,
+                    "y": 182.2841544265382
+                },
+                {
+                    "x": 707.7103857202915,
+                    "y": 436.01505611729965
+                },
+                {
+                    "x": 3.4607194156390135,
+                    "y": 436.01505611729965
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

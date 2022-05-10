@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "07a4f7a55f56416237deb291dceb9835",
+        "name": "00000397.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000397.jpg",
+        "size": {
+            "width": 740,
+            "height": 766
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "KyAfpBg1-",
+            "type": "RECTANGLE",
+            "tags": [
+                "WARRIOR POSE"
+            ],
+            "boundingBox": {
+                "height": 628.1804863231604,
+                "width": 716.9619222206645,
+                "left": 14.546531450630415,
+                "top": 21.764089958519456
+            },
+            "points": [
+                {
+                    "x": 14.546531450630415,
+                    "y": 21.764089958519456
+                },
+                {
+                    "x": 731.5084536712949,
+                    "y": 21.764089958519456
+                },
+                {
+                    "x": 731.5084536712949,
+                    "y": 649.9445762816798
+                },
+                {
+                    "x": 14.546531450630415,
+                    "y": 649.9445762816798
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

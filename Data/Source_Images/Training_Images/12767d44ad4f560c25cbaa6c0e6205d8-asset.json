@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "12767d44ad4f560c25cbaa6c0e6205d8",
+        "name": "00000092.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000092.jpg",
+        "size": {
+            "width": 1300,
+            "height": 988
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "MFd-OMdm0",
+            "type": "RECTANGLE",
+            "tags": [
+                "TREE POSE"
+            ],
+            "boundingBox": {
+                "height": 857.7823944091797,
+                "width": 480.93270041725856,
+                "left": 365.1818181818182,
+                "top": 35.995953646573156
+            },
+            "points": [
+                {
+                    "x": 365.1818181818182,
+                    "y": 35.995953646573156
+                },
+                {
+                    "x": 846.1145185990767,
+                    "y": 35.995953646573156
+                },
+                {
+                    "x": 846.1145185990767,
+                    "y": 893.7783480557529
+                },
+                {
+                    "x": 365.1818181818182,
+                    "y": 893.7783480557529
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

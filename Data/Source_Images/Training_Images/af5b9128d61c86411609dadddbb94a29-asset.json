@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "af5b9128d61c86411609dadddbb94a29",
+        "name": "00000142.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000142.jpg",
+        "size": {
+            "width": 417,
+            "height": 417
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "x9Pt3y85d",
+            "type": "RECTANGLE",
+            "tags": [
+                "DOWNDOG POSE"
+            ],
+            "boundingBox": {
+                "height": 237.45659122740824,
+                "width": 380.5897561397279,
+                "left": 11.38285922547847,
+                "top": 112.00493209327807
+            },
+            "points": [
+                {
+                    "x": 11.38285922547847,
+                    "y": 112.00493209327807
+                },
+                {
+                    "x": 391.97261536520637,
+                    "y": 112.00493209327807
+                },
+                {
+                    "x": 391.97261536520637,
+                    "y": 349.4615233206863
+                },
+                {
+                    "x": 11.38285922547847,
+                    "y": 349.4615233206863
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

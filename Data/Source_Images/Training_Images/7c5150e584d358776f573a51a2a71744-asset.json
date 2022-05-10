@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "jpg",
+        "id": "7c5150e584d358776f573a51a2a71744",
+        "name": "00000113.jpg",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000113.jpg",
+        "size": {
+            "width": 1500,
+            "height": 1000
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "Ail-r6BUm",
+            "type": "RECTANGLE",
+            "tags": [
+                "GODDESS POSE"
+            ],
+            "boundingBox": {
+                "height": 320.9199739744882,
+                "width": 503.4964966123216,
+                "left": 502.85025092567463,
+                "top": 399.82389161367865
+            },
+            "points": [
+                {
+                    "x": 502.85025092567463,
+                    "y": 399.82389161367865
+                },
+                {
+                    "x": 1006.3467475379962,
+                    "y": 399.82389161367865
+                },
+                {
+                    "x": 1006.3467475379962,
+                    "y": 720.7438655881668
+                },
+                {
+                    "x": 502.85025092567463,
+                    "y": 720.7438655881668
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}

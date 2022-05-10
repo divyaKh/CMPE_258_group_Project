@@ -1,0 +1,48 @@
+{
+    "asset": {
+        "format": "png",
+        "id": "ae5a0a27338ae0285455521dbda1e225",
+        "name": "00000238.png",
+        "path": "file:/Users/axgupta/Desktop/TrainYourOwnYOLO/Data/Source_Images/Training_Images/00000238.png",
+        "size": {
+            "width": 439,
+            "height": 372
+        },
+        "state": 2,
+        "type": 1
+    },
+    "regions": [
+        {
+            "id": "t-_u7hIrF",
+            "type": "RECTANGLE",
+            "tags": [
+                "PLANK"
+            ],
+            "boundingBox": {
+                "height": 289.67645190663313,
+                "width": 400.1107708313545,
+                "left": 22.54978267279319,
+                "top": 21.247648394278933
+            },
+            "points": [
+                {
+                    "x": 22.54978267279319,
+                    "y": 21.247648394278933
+                },
+                {
+                    "x": 422.6605535041477,
+                    "y": 21.247648394278933
+                },
+                {
+                    "x": 422.6605535041477,
+                    "y": 310.9241003009121
+                },
+                {
+                    "x": 22.54978267279319,
+                    "y": 310.9241003009121
+                }
+            ]
+        }
+    ],
+    "version": "2.2.0"
+}
