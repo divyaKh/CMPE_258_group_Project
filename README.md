@@ -1,6 +1,6 @@
 # TrainYourOwnYOLO: Training
-+<img src="/results/git_pose_estimation.gif?raw=true" width="500px">
-+<img src="/results/git_arm_curler.gif?raw=true" width="500px">
++<img src="/results/git_pose_estimation.gif?raw=true" width="800px">
++<img src="/results/git_arm_curler.gif?raw=true" width="800px">
 
 ## Training
 Using the training images located in [`TrainYourOwnYOLO/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images) and the annotation file [`data_train.txt`](/Data/Source_Images/Training_Images/vott-csv-export) which we have created in the [previous step](/1_Image_Annotation/) we are now ready to train our YOLOv3 detector. 
