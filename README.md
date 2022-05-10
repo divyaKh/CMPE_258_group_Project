@@ -1,81 +1,26 @@
-# Title: Fitness Tracker - Real Time Action Recognition and Arm Curler Reps Counter 
+# TrainYourOwnYOLO: Training
 
-## Contents
+## Training
+Using the training images located in [`TrainYourOwnYOLO/Data/Source_Images/Training_Images`](/Data/Source_Images/Training_Images) and the annotation file [`data_train.txt`](/Data/Source_Images/Training_Images/vott-csv-export) which we have created in the [previous step](/1_Image_Annotation/) we are now ready to train our YOLOv3 detector. 
 
- * [Objective](#Objective)
- * [Folder Structure](#folder-structure)
- * [Steps to run the project](#steps-to-run-the-project)
- * [Dataset](#Dataset)
- * [METHODOLOGY EMPLOYED](###METHODOLOGY EMPLOYED)
- * [Conclusion](#Conclusion)
- * [Contributors](#Contributors)
+## Download and Convert Pre-Trained Weights
+Before getting started download the pre-trained YOLOv3 weights and convert them to the keras format. To run both steps run the download and conversion script from within the [`TrainYourOwnYOLO/2_Training`](/2_Training/) directory:
 
-
-
-## Objective
-
-
-
-
-
-
-
-### Folder Structure
-
-```shell
-CMPE_258_group_Project/
-├── 1_Image_Annotation
-│   ├── Convert_to_YOLO_format.py
-│   └── README.md      
-├── 2_Training
-│   ├── Download_and_Convert_YOLO_weights.py
-│   ├── src
-│   ├── Train_YOLO.py
-│   └── README.md 
-├── data_preprocessing
-│   ├── CustomerChurnPrediction.ipynb
-│   └── README.md
-└── I3_Inference   
-│   ├── Detector.py
-│   ├── images 
-│   ├── settings.py 
-│   └── README.md
-└── Data
-│   ├── Model_Weights
-│   └── Source_Images
-└── Utils
-│   ├── 
-│   └── 
-└── Venv
-│   ├── 
-│   └── 
-└──  README.md 
 ```
+python Download_and_Convert_YOLO_weights.py
+```
+To list available command line options run `python Download_and_Convert_YOLO_weights.py -h`.
 
-### Steps to run the project
-1. Clone the project at the location https://github.com/MANJUSHREEBR/CMPE_258_group_Project.git
-2. 
-## Dataset
+The weights are pre-trained on the [ImageNet 1000 dataset](http://image-net.org/challenges/LSVRC/2015/index) and thus work well for object detection tasks that are very similar to the types of images and objects in the ImageNet 1000 dataset.
 
-https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
-</br>
- Dataset consists of images of 5 yoga poses. Which are as follows:
- 1. Tree Pose
- 2. No Pose
- 3. Downward Dog Pose 
- 4. Goddess Pose
- 5. Plank Pose
- 6. Warrior Pose
+## Train YOLOv3 Detector
+To start the training, run the training script from within the [`TrainYourOwnYOLO/2_Training`](/2_Training/) directory:
+```
+python Train_YOLO.py 
+```
+Depending on your set-up, this process can take a few minutes to a few hours. The final weights are saved in [`TrainYourOwnYOLO/Data/Model_weights`](/Data/Model_weights). To list available command line options run `python Train_YOLO.py -h`.
 
-### Contributors
+If training is too slow on your local machine, consider using cloud computing services such as AWS to speed things up. To learn more about training on AWS navigate to [`TrainYourOwnYOLO/2_Training/AWS`](/2_Training/AWS).
 
-* [Aishwarya Paruchuri](https://github.com/aishwarya95698)
-* [Archita Chakraborty](https://github.com/Archita22ind)
-* [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
-* [Divya Khandelwaal](https://github.com/divyaKh)
-
-### METHODOLOGY EMPLOYED :
-
-To recognize real-time yoga postures, we trained the Yolov3 model on a subset of images exhibiting 5 different yoga stances. We also implemented a counter to keep track of how long the user remains  in the pose. We also used the Mediapipe pose estimation model to add a bicep curl tracker to our fitness app, which employs an ML model to estimate a person's pose from an image or video by calculating the spatial locations of important body joints. We added curl counter logic to this, which calculates the angles between joints and we set a threshold, such as if the arm moves beyond 160 degrees and then below 30 degrees, the repeat counter is incremented.
-
-
+### That's all for training! 
+Next, go to [`TrainYourOwnYOLO/3_Inference`](/3_Inference) to test your YOLO detector on new images!
