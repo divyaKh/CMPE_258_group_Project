@@ -98,4 +98,4 @@ cmpe_258_group_project/
 - [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
 
 ## References
-- [1] https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
+-  https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
