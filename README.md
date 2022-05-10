@@ -6,7 +6,7 @@
  * [Folder Structure](#folder-structure)
  * [Steps to run the project](#steps-to-run-the-project)
  * [Dataset](#Dataset)
- * [METHODOLOGY EMPLOYED](### METHODOLOGY EMPLOYED)
+ * [METHODOLOGY EMPLOYED](###METHODOLOGY EMPLOYED)
  * [Conclusion](#Conclusion)
  * [Contributors](#Contributors)
 
