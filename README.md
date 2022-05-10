@@ -96,3 +96,8 @@ cmpe_258_group_project/
 - [Archita Chakraborty](https://github.com/Archita22ind)
 - [Divya Khandelwaal](https://github.com/divyaKh)
 - [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
+
+## References
+[1] https://github.com/TianzhongSong/Real-Time-Action-Recognition
+[2] https://github.com/nicknochnack/MediaPipePoseEstimation
+[3]https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
