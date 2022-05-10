@@ -2,17 +2,13 @@
 
 ## Contents
 
- * [Objective]
- * [Quick start](#quick-start)
+ * [Objective](#Objective)
  * [Folder Structure](#folder-structure)
- * [Installation](#installation)
  * [Steps to run the project](#steps-to-run-the-project)
  * [Dataset](#Dataset)
- * [Problem being investigated](#problem-being-investigated)
- * [Data Science Life cycle](#data-science-life-cycle)
+ * [METHODOLOGY EMPLOYED](### METHODOLOGY EMPLOYED)
  * [Conclusion](#Conclusion)
  * [Contributors](#Contributors)
- * [License](#License)
 
 
 
@@ -22,7 +18,7 @@
 
 
 
-## Quick start
+
 
 ### Folder Structure
 
@@ -77,4 +73,9 @@ https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
 * [Archita Chakraborty](https://github.com/Archita22ind)
 * [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
 * [Divya Khandelwaal](https://github.com/divyaKh)
+
+### METHODOLOGY EMPLOYED :
+
+To recognize real-time yoga postures, we trained the Yolov3 model on a subset of images exhibiting 5 different yoga stances. We also implemented a counter to keep track of how long the user remains  in the pose. We also used the Mediapipe pose estimation model to add a bicep curl tracker to our fitness app, which employs an ML model to estimate a person's pose from an image or video by calculating the spatial locations of important body joints. We added curl counter logic to this, which calculates the angles between joints and we set a threshold, such as if the arm moves beyond 160 degrees and then below 30 degrees, the repeat counter is incremented.
+
 
