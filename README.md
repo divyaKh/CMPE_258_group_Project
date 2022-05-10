@@ -1,8 +1,8 @@
 # Title: Real Time Pose Estimation and Bicep Curl Counter
 
-+<img src="/results/git_pose_estimation.gif?raw=true" width="1000px">
-+<img src="/results/git_pose_estimation_1.gif?raw=true" width="1000px">
-+<img src="/results/git_arm_curler.gif?raw=true" width="1000px">
+## Objective
+
+To create an application that would prompt the user to choose the type of workout he or she wants to learn. If the user chooses yoga, the app will first recognize the pose and start a timer to record the amount of time the user spends in that position. If the user chooses bicep curl, the application will track the number of repetitions for that exercise.
 
 
 ## Dataset
@@ -19,76 +19,46 @@ Dataset consists of images of 5 yoga poses. Which are as follows:
 6.  Warrior Pose
 
 ## Folder Structure
-```shell
-cmpe_258_group_project/
-├── 1_Image_Annotation
-│   ├── Convert_to_YOLO_format.py   
-│   └── README.md      
-├── 2_Training
-│   ├──src
-|      ├── keras_yolo3
-|          ├── __pycache__
-|              ├── yolo.cpython-36.pyc
-|              ├── yolo.cpython-37.pyc
-|              ├── yolo.cpython-38.pyc
-|              ├── yolo.cpython-39.pyc
-|          ├── .DS_Store
-|          ├── LICENSE
-|          ├── README.md
-|          ├── .coco_annotation.py
-|          ├── convert.py
-|          ├── darknet53.cfg
-|          ├── kmeans.py
-|          ├── train.py
-|          ├── train_bottleneck.py
-|          ├── voc_annotation.py
-|          ├── yolo.py
-|          ├── yolo_video.py
-|          ├── yolov3-tiny.cfg
-|          ├── yolov3.cfg
-|      ├── font
-|              ├── FiraMono-Medium.otf
-|              ├── SIL Open Font License.txt
-|      ├── model_data
-|              ├── coco_classes.txt
-|              ├── voc_classes.txt
-|              ├── yolo-tiny_anchors.txt
-|              ├── yolo_anchors.txt
-|      ├── yolo3
-|              ├── __pycache__
-|                  ├── __init__.cpython-36.pyc
-|                  ├── __init__.cpython-37.pyc
-|                  ├── __init__.cpython-38.pyct
-|                  ├── model.cpython-36.pyc
-|                  ├── model.cpython-37.pyc
-|                  ├── model.cpython-38.pyc
-|                  ├── utils.cpython-36.pyc
-|                  ├── utils.cpython-37.pyc
-|                  ├── utils.cpython-38.pyc
-|              ├── __init__.py
-|              ├── model.py
-|              ├── utils.py
-│   ├── .DS_Store
-│   ├── Download_and_Convert_YOLO_weights.py
-|   ├── Train_YOLO.py
-|   └── README.md
-├── 3_Inference
-│   └── README.md
-├── Data   
-│   ├── Source_Images
-|       ├── Training_Images
-|       └── .DS_Store
-│   ├── .DS_Store
-│   └── README.md
-├── Utils
-├── Results
-│   ├── .DS_Store
-│   ├── git_arm_curler.gif
-│   ├── git_pose_estimation_1.gif
-│   └── git_pose_estimation.gif
-├──.DS_Store
-├── README.md
-```
+
+1_Image_Annotation: Scripts and instructions on annotating images
+
+2_Training: Scripts and instructions on training your YOLOv3 model
+
+3_Inference: Scripts and instructions on testing your trained YOLO model on new images and videos
+
+Data: Input Data, Output Data, Model Weights and Results
+
+Utils: Utility scripts used by main scripts
+
+## Steps to run the project
+
+1. pip install -r requirements.txt (in a conda environment yolov4-cpu)
+
+2. conda activate yolov4-cpu
+
+3. Source Train images are already annoted and csv file created in Data folder
+
+4. Under Traing folder run the below commands. This step is required as we cannot share the weights and model file due to their huge size. 
+    (Model building took approximately 4-5 hours)
+
+     python Download_and_Convert_YOLO_weights.py
+     
+     python Train_YOLO.py 
+     
+     (The final weights are saved in TrainYourOwnYOLO/Data/Model_weights)
+     (The final model .h5 file is saved  in TrainYourOwnYOLO/Data/Model_weights)
+     
+5. Under 3_Inference folder run the below commands:
+
+     python Detector.py
+   
+     (to detect the test images/imput videos/ web cam testing for Yolo model)
+
+     python main.py
+
+     (to run the UI of the project for Yoga pose detection and Arm curler count reps)
+    
+
 
 ### Contributors
 
