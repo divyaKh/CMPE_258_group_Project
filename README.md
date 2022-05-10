@@ -94,5 +94,5 @@ cmpe_258_group_project/
 
 - [Aishwarya Paruchuri](https://github.com/aishwarya95698)
 - [Archita Chakraborty](https://github.com/Archita22ind)
-- [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
 - [Divya Khandelwaal](https://github.com/divyaKh)
+- [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
