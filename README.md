@@ -1,4 +1,4 @@
-# Title: Real Time Action Recognition
+# Title: Real Time Pose Estimation and Bicep Curl Counter
 
 +<img src="/results/git_pose_estimation.gif?raw=true" width="1000px">
 +<img src="/results/git_pose_estimation_1.gif?raw=true" width="1000px">
