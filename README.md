@@ -1,7 +1,8 @@
 # Title: Real Time Action Recognition
 
-+<img src="/results/git_pose_estimation.gif?raw=true" width="800px">
-+<img src="/results/git_arm_curler.gif?raw=true" width="800px">
++<img src="/results/git_pose_estimation.gif?raw=true" width="1000px">
++<img src="/results/git_arm_curler.gif?raw=true" width="1000px">
++<img src="/results/git_pose_estimation_1.gif?raw=true" width="1000px">
 
 ## Dataset
 
