@@ -1,5 +1,8 @@
 # Title: Real Time Action Recognition
 
++<img src="/results/git_pose_estimation.gif?raw=true" width="800px">
++<img src="/results/git_arm_curler.gif?raw=true" width="800px">
+
 ## Dataset
 
 https://www.kaggle.com/datasets/niharika41298/yoga-poses-dataset
