@@ -19,6 +19,7 @@ Dataset consists of images of 5 yoga poses. Which are as follows:
 6.  Warrior Pose
 
 ## Folder Structure
+```shell
 cmpe_258_group_project/
 ├── 1_Image_Annotation
 │   ├── Convert_to_YOLO_format.py   
@@ -87,6 +88,7 @@ cmpe_258_group_project/
 │   └── git_pose_estimation.gif
 ├──.DS_Store
 ├── README.md
+```
 
 ### Contributors
 
