@@ -71,4 +71,6 @@ Utils: Utility scripts used by main scripts
 - [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
 
 ## References
--  https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
+- [1] https://github.com/TianzhongSong/Real-Time-Action-Recognition
+- [2] https://github.com/nicknochnack/MediaPipePoseEstimation
+- [3]https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
