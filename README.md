@@ -1,7 +1,11 @@
 # Title: Real Time Pose Estimation and Bicep Curl Counter
-+<img src="/results/git_pose_estimation.gif?raw=true" width="1000px">
-+<img src="/results/git_arm_curler.gif?raw=true" width="1000px">
-+<img src="/results/git_pose_estimation_1.gif?raw=true" width="1000px">
+## CMPE 258 Deep Learning Project
+
+## Demo of the project
+
+<img src="/results/git_pose_estimation.gif?raw=true" width="1000px">
+<img src="/results/git_arm_curler.gif?raw=true" width="1000px">
+<img src="/results/git_pose_estimation_1.gif?raw=true" width="1000px">
 
 ## Objective
 
@@ -71,6 +75,5 @@ Utils: Utility scripts used by main scripts
 - [Manjushree Barike Rajanna](https://github.com/MANJUSHREEBR)
 
 ## References
-- [1] https://github.com/TianzhongSong/Real-Time-Action-Recognition
-- [2] https://github.com/nicknochnack/MediaPipePoseEstimation
-- [3]https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
+
+- https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
