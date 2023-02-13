@@ -77,3 +77,6 @@ Utils: Utility scripts used by main scripts
 ## References
 
 - https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2
+- https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/42237.pdf
+- https://medium.com/@ilias_mansouri/computer-vision-part-8-pose-estimation-stick-figures-using-ai-33e7dcbf603
+
