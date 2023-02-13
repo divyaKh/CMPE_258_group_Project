@@ -76,4 +76,4 @@ Utils: Utility scripts used by main scripts
 
 ## References
 
-- https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de
+- https://blog.insightdatascience.com/how-to-train-your-own-yolov3-detector-from-scratch-224d10e55de2
